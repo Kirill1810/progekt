@@ -1,0 +1,82 @@
+:root{
+    --tielgrey: #C7C7C7;
+    --pupule: #8E32C6;
+    --wite: #FFF;
+    --head: #012D63;
+
+}
+
+
+.ssect{
+    background-color: var(--head);
+}
+
+
+.eng1 , .eng2{
+    color: var(--wite);
+
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.cgg{
+    color: var(--wite);
+
+font-family: PT Serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.pages{
+    color: var(--tielgrey);
+
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.color{
+    color: var(--wite);
+
+font-family: Playfair Display;
+font-size: 144px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.dream-nike{
+    color: #FFF;
+
+font-family: Playfair Display;
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.header-text{
+    color: var(--wite);
+
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.nike-button{
+    background-color: var(--pupule);
+}
+
+
+
+
