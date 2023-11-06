@@ -3,18 +3,22 @@
     --pupule: #8E32C6;
     --wite: #FFF;
     --head: #012D63;
-
 }
 
 
 .ssect{
     background-color: var(--head);
+    display: flex;
+}
+
+.header-ul{
+    display: flex;
+    justify-content: flex-end;
 }
 
 
 .eng1 , .eng2{
     color: var(--wite);
-
 font-family: Roboto;
 font-size: 24px;
 font-style: normal;
@@ -22,9 +26,9 @@ font-weight: 400;
 line-height: normal;
 }
 
+
 .cgg{
     color: var(--wite);
-
 font-family: PT Serif;
 font-size: 48px;
 font-style: normal;
@@ -32,9 +36,9 @@ font-weight: 400;
 line-height: normal;
 }
 
+
 .pages{
     color: var(--tielgrey);
-
 font-family: Roboto;
 font-size: 24px;
 font-style: normal;
@@ -42,9 +46,9 @@ font-weight: 300;
 line-height: normal;
 }
 
+
 .color{
     color: var(--wite);
-
 font-family: Playfair Display;
 font-size: 144px;
 font-style: normal;
@@ -52,9 +56,9 @@ font-weight: 400;
 line-height: normal;
 }
 
+
 .dream-nike{
     color: #FFF;
-
 font-family: Playfair Display;
 font-size: 72px;
 font-style: normal;
@@ -62,9 +66,9 @@ font-weight: 400;
 line-height: normal;
 }
 
+
 .header-text{
     color: var(--wite);
-
 font-family: Roboto;
 font-size: 18px;
 font-style: normal;
@@ -76,6 +80,159 @@ line-height: normal;
 .nike-button{
     background-color: var(--pupule);
 }
+
+
+.premium-text{
+    color: var(--wite);
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.premium-shipping{
+    color: var(--wite);
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.premium-paint{
+    color: var(--wite);
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.reviev{
+    color: var(--wite);
+text-align: center;
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+/* coment */
+.coment1{
+    color: var(--wite);
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.coment2{
+    color:var(--wite) ;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.coment3{
+    color: var(--wite);
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* coment */
+
+
+/* time */
+.time1{
+    color: var(--tielgrey);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.time2{
+    color: var(--tielgrey);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.time3{
+    color: var(--tielgrey);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* time */
+
+
+/* name */
+.name1{
+    color: var(--wite);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.name2{
+    color: var(--wite);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.name3{
+    color: var(--wite);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* name */
+
+
+/* with-us */
+.with-us1{
+    color: var(--tielgrey);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.with-us2{
+    color: var(--tielgrey);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.with-us3{
+    color: var(--tielgrey);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* with-us */
+
 
 
 
