@@ -7,17 +7,39 @@
 
 
 .ssect{
-    background-color: var(--head);
     display: flex;
 }
+
+
+.container2{
+    background-color: var(--head);
+}
+
 
 .header-ul{
     display: flex;
     justify-content: flex-end;
 }
 
+.container{
+    width: 1081px;
+outline: solid red;
+margin-left: auto;
+margin-right: auto;
+}
 
-.eng1 , .eng2{
+
+html{
+    background-color: black;
+}
+
+.header-informat{
+    background-image: url(./img/back.png);
+}
+
+
+
+.eng1  .eng2{
     color: var(--wite);
 font-family: Roboto;
 font-size: 24px;
@@ -79,6 +101,12 @@ line-height: normal;
 
 .nike-button{
     background-color: var(--pupule);
+    color: var(--wite);
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 
@@ -232,6 +260,28 @@ line-height: normal;
     line-height: normal;
 }
 /* with-us */
+
+.order{
+    color: var(--wite);
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.input-button{
+    color: var(--wite);
+background-color: var(--pupule);
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
 
 
 
