@@ -3,17 +3,23 @@
     --pupule: #8E32C6;
     --wite: #FFF;
     --head: #012D63;
+    --dlu: #012D63;
 }
 
+header{
+    background-color: var(--dlu);
+}
 
 .ssect{
     display: flex;
+    
 }
 
 
 .container2{
     background-color: var(--head);
 }
+
 
 
 .header-ul{
@@ -29,23 +35,49 @@ margin-right: auto;
 }
 
 
+
+
 html{
-    background-color: black;
+    background-color: blac;
+}
+
+.head-img{
+margin-top: 108px;
+width: 160px;
+height: 120px;
 }
 
 .header-informat{
     background-image: url(./img/back.png);
+    background-repeat: no-repeat;
+  background-position: center;
+  max-width:  1081px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-ul1{
+    display: flex;
+    gap: 29px;
+    margin-left: 140px;
+    align-items: center;
+}
+
+.vbvb{
+    
 }
 
 
-
-.eng1  .eng2{
+.eng1{
     color: var(--wite);
 font-family: Roboto;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+
+
 }
 
 
@@ -56,16 +88,24 @@ font-size: 48px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin: 0px;
+margin-left: 39px;
 }
 
 
+.pages:hover{
+color: var(--tielgrey);
+}
+
 .pages{
-    color: var(--tielgrey);
+    color: var(--wite);
+    
 font-family: Roboto;
 font-size: 24px;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
+
 }
 
 
@@ -96,6 +136,8 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+width: 508px;
+height: 84px;
 }
 
 
@@ -107,6 +149,10 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-top: 41px;
+width:254px;
+height:67px;
+border-radius: 10%;
 }
 
 
