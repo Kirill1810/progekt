@@ -20,6 +20,26 @@ header{
     background-color: var(--head);
 }
 
+.div1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 240px;
+    height: 400px;
+    text-align: center;
+}
+
+.div2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 240px;
+    height: 342px;
+    text-align: center; 
+    margin-left: 200px;
+}
+
+
 
 
 .header-ul{
@@ -28,14 +48,37 @@ header{
 }
 
 .container{
-    width: 1081px;
+    width: 1110px;
 outline: solid red;
 margin-left: auto;
 margin-right: auto;
 }
 
 
+.premium{
+    background-image: url(./img/back2.png);
+    background-repeat: no-repeat;
+    background-size: 1900px;
 
+}
+
+.img1{
+    margin-left: 50px;
+}
+.img2{
+    
+    
+
+}
+
+
+.premium-ul{
+    display: flex;
+    align-items: center ;
+    height: 396px;
+    
+
+}
 
 html{
     background-color: blac;
@@ -51,7 +94,7 @@ height: 120px;
     background-image: url(./img/back.png);
     background-repeat: no-repeat;
   background-position: center;
-  max-width:  1081px;
+  max-width: 1107px px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -163,7 +206,12 @@ font-size: 36px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+height: 102px;
+width: 159px;
+margin-bottom: 0px;
+margin-left: 91px;
 }
+
 
 
 .premium-shipping{
@@ -173,6 +221,8 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 151px;
+    height: 103px;
 }
 
 
@@ -183,6 +233,8 @@ font-size: 36px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+width: 161px;
+height: 102px;
 }
 
 .reviev{
