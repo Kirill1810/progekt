@@ -481,6 +481,9 @@ font-size: 48px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+text-align: center;
+margin: 0%;
+margin-bottom: 33px;
 }
 
 .input-button{
@@ -494,7 +497,85 @@ line-height: normal;
 }
 
 
+.input-sekt{
+    background-image: url(./img/back4.png);
+    height: 509px;
+    width: 1850px;
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
 
+
+
+
+.input-ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 90px;
+
+    
+}
+
+.inputt{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input1{
+    width: 690px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+margin-left: 200px;
+margin-right: auto;
+margin-bottom: 19px;
+color: #959595;
+
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.input{
+    width: 580px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+margin-left: 250px;
+margin-right: 00px;
+display: block;
+margin-bottom: 19px;
+
+color: #959595;
+
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+
+.input-button{
+ border-radius: 16px;
+background: #8E32C6;
+width: 248px;
+height: 68px;
+flex-shrink: 0;
+margin-right: auto;
+margin-left: auto;
+display: block;
+margin-top: 219px;
+}
 
 
 
