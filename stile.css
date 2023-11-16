@@ -4,6 +4,7 @@
     --wite: #FFF;
     --head: #012D63;
     --dlu: #012D63;
+    --nn:#021635;
 }
 
 header{
@@ -141,7 +142,7 @@ margin-top: 30px;
 
 .container{
     width: 1110px;
-outline: solid red;
+outline: solid ed;
 margin-left: auto;
 margin-right: auto;
 }
@@ -575,6 +576,82 @@ margin-right: auto;
 margin-left: auto;
 display: block;
 margin-top: 219px;
+}
+
+.a-text{
+    color: #FFF;
+
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.a-text2{
+    color: #FFF;
+
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.a-sect{
+    background-color: var(--nn);
+}
+
+.a1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+}
+
+.a2{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+    margin-left: 730px;
+}
+
+.a3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+
+.a-text3{
+    color: #FFF;
+
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+}
+
+.cdcd{
+    color: #FFF;
+
+font-family: PT Serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+margin-left: 1030px;
+}
+
+.nike2{
+    margin-left: 1020px; 
+    
+
 }
 
 
