@@ -13,6 +13,8 @@ header{
 
 .ssect{
     display: flex;
+    padding-bottom: 17px;
+    padding-top: 16px;
     
 }
 
@@ -68,6 +70,8 @@ header{
     background-size: cover;
 height: 520px;
 flex-shrink: 0;
+padding-top: 25px;
+padding-bottom: 114px;
 
 }
 
@@ -79,16 +83,33 @@ flex-shrink: 0;
 .card1{
 width: 255px;
 height: 292px;
+padding-left: 13px;
 flex-shrink: 0;
 border-radius: 15px;
 background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
 
 box-shadow: 0px 30px 0px -13px #533978, 
 
+
 }
 
+
+
 .card11{
-   
+   display: flex;
+   margin-top: 50px;
+}
+
+.tex3{
+    margin-top: 50px;
+}
+
+
+
+.tex1{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .imgg1{
@@ -106,16 +127,54 @@ margin-top: 30px;
 .card2{
     width: 255px;
     height: 292px;
+    padding-left: 13px;
     flex-shrink: 0;
     border-radius: 15px;
     background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
     
     box-shadow: 0px 30px 0px -13px #61337C, 
+    
 }
 
 .card22{
     margin-top: 41px;
+    display: flex;
+    margin-top: 67px;
 }
+
+.card33{
+    display: flex;
+
+}
+
+.imgg3{
+    width: 31px;
+height: 31px;
+flex-shrink: 0;
+margin-top: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .card3{
     width: 255px;
@@ -134,10 +193,22 @@ margin-top: 30px;
 }
 
 
+.imgg2{
+    width: 31px;
+height: 31px;
+flex-shrink: 0;
+
+
+}
+
+
+
+
 
 .header-ul{
     display: flex;
     justify-content: flex-end;
+
 }
 
 .container{
@@ -152,6 +223,9 @@ margin-right: auto;
     background-image: url(./img/back2.png);
     background-repeat: no-repeat;
     background-size: 1900px;
+    background-size: cover;
+    padding-top: 105px;
+    padding-bottom: 105px;
 
 }
 
@@ -185,6 +259,7 @@ margin-right: auto;
     align-items: center ;
     height: 396px;
     
+    
 
 }
 
@@ -206,6 +281,7 @@ height: 120px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 183px;
 }
 
 .header-ul1{
@@ -217,6 +293,13 @@ height: 120px;
 
 .vbvb{
     
+}
+
+.imgg1{
+    width: 31px;
+height: 31px;
+flex-shrink: 0;
+margin-top: 10px;
 }
 
 
@@ -407,7 +490,8 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-top: px;
+margin-top: 50px;
+margin-bottom: 0px;
 }
 .time3{
     color: var(--tielgrey);
@@ -428,6 +512,8 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin: 0px;
+
 }
 .name2{
     color: var(--wite);
@@ -436,6 +522,7 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 0px;
 }
 .name3{
     color: var(--wite);
@@ -444,6 +531,7 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 0px;
 }
 /* name */
 
@@ -456,6 +544,7 @@ font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin: 0px;
 }
 .with-us2{
     color: var(--tielgrey);
@@ -464,6 +553,7 @@ font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin: 0px;
 }
 .with-us3{
     color: var(--tielgrey);
@@ -472,6 +562,7 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 0px;
 }
 /* with-us */
 
@@ -505,6 +596,8 @@ line-height: normal;
     background-size: cover;
     background-position:center ;
     background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 37px;
 }
 
 
@@ -535,6 +628,7 @@ background: #FFF;
 margin-left: 200px;
 margin-right: auto;
 margin-bottom: 19px;
+padding-left: 25px;
 color: #959595;
 
 font-family: Roboto;
@@ -554,6 +648,8 @@ margin-left: 250px;
 margin-right: 00px;
 display: block;
 margin-bottom: 19px;
+
+padding-left: 24px;
 
 color: #959595;
 
@@ -586,6 +682,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin: 10px;
 }
 
 .a-text2{
@@ -597,10 +694,13 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-decoration-line: underline;
+margin: 10px;
 }
 
 .a-sect{
     background-color: var(--nn);
+    padding-top: 45px;
+    padding-bottom: 50px;
 }
 
 .a1{
@@ -621,6 +721,7 @@ text-decoration-line: underline;
     display: flex;
     flex-direction: column;
     position: absolute;
+    margin-top: 24px;
 }
 
 
@@ -632,6 +733,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-bottom: 7px;
 
 
 }
@@ -653,6 +755,9 @@ margin-left: 1030px;
     
 
 }
+
+
+
 
 
 
