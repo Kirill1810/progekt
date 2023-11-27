@@ -66,17 +66,46 @@ header{
 }
 
 .coments{
-    background-image: url(./img/back3.png);  
-    background-size: cover;
+    background-image:   url(./img/flov-bac.png)    , url(./img/back3.png)  ;  
+    background-size: 440px 480px , cover ;
+   background-repeat: no-repeat;
+   background-position: left bottom;
 height: 520px;
 flex-shrink: 0;
 padding-top: 25px;
 padding-bottom: 114px;
 
+
+
+
 }
+
+.coments{
+    
+}
+
+/* .d1v{
+    background-image:url(./img/flov-bac.png) ;
+    background-repeat: no-repeat;
+    background-size:  340px 380px ;
+    background-position: ; 
+
+    background-position: bottom 50px;
+    
+    
+
+} */
+
+
+
+
+
+
+
 
 .coments-ul{
     display: flex;
+
 }
 
 
@@ -88,7 +117,13 @@ flex-shrink: 0;
 border-radius: 15px;
 background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
 
+background-image: url(./img/bac-com.png), url(./img/bac-com.png);
+background-repeat: no-repeat;
+background-position: bottom  ;
+
 box-shadow: 0px 30px 0px -13px #533978, 
+
+
 
 
 }
@@ -132,7 +167,13 @@ margin-top: 30px;
     border-radius: 15px;
     background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
     
+    background-image: url(./img/purp.png), url(./img/purp.png);
+    background-repeat: no-repeat;
+    background-position: bottom  ;
+
+
     box-shadow: 0px 30px 0px -13px #61337C, 
+
     
 }
 
@@ -183,7 +224,15 @@ margin-top: 50px;
     border-radius: 15px;
     background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
     
+    background-image: url(./img/yel.png) , url(./img/yel.png);
+    background-repeat: no-repeat;
+    background-position: bottom  ;
+
+
+
     box-shadow: 0px 30px 0px -13px #732F26, 
+
+
 }
 .coments-ul{
     margin-left: 95px;
